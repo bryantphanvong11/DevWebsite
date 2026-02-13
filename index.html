@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!--link instagram and linked in icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="images/cocosign.png" alt="Top Logo" class="logo-img">
+    </div>
+    <nav>
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+
+        <img src="images/_DSC0352.jpg" alt="Bryant Profile Picture" class="hero-img">
+
+        <div class="hero-text">
+            <h1>Bryant Phanvong</h1>
+
+            <h3 class="hero-subtitle">
+                Bellevue College | Future Computer Science Major
+            </h3>
+
+            <p class="hero-description">
+                Motivated aspiring software engineer focused on building real-world
+                applications and AI-driven solutions.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">My Projects</a>
+
+                <a href="https://www.instagram.com/nvm.bryant/"
+                target="_blank"
+                class="btn instagram-btn">
+                <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+
+                <a href="https://www.linkedin.com/in/bryant-phanvong-54662335a/"
+                target="_blank"
+                class="btn linkedin-btn">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <div class="about-container">
+
+        <!-- LEFT SIDE (TEXT) -->
+        <div class="about-text">
+            <h2>About Me</h2>
+
+                <p class="about-intro">
+                    Highly motivated and determined to succeed as a future software and website engineer with a consistent work ethic and drive for excellence.
+                </p>
+
+            <ul class="about-list">
+                <li>Strong organizational and multitasking skills</li>
+                <li>Thrives under pressure through communication and leadership</li>
+                <li>Team-oriented with a growth mindset</li>
+                <li>Committed to exceeding expectations and achieving milestones</li>
+            </ul>
+
+        <p class="about-interests">
+            <strong>Interests:</strong> Cars, AI development, Home Projects, and AI applications solving real-world problems. 
+            Strive to obtain 1 million in investments by 25 years old. 
+        </p>
+            <ul class="about-list">
+                <li>Secretary for CSU (Chinese Student Union)</li>
+                <li>Freelance Photographer $1000 in sales from 5 months</li>
+                <li>80+ volunteer hours of AI development for Non-profit</li>
+                <li>Independent research on AI automation and web development</li>
+            </ul>
+
+
+        </div>
+
+        <!-- RIGHT SIDE (IMAGES) -->
+        <div class="about-images">
+            <img src="images/IMG_4091.heic" alt="About image 1">
+            <img src="images/IMG_4246.heic" alt="About image 2">
+        </div>
+
+    </div>
+</section>
+
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Project Alpha</h3>
+            <p>Placeholder project description.</p>
+            <button class="btn">View Project</button>
+        </div>
+
+        <div class="project-card">
+            <h3>Project Beta</h3>
+            <p>Another editable description here.</p>
+            <button class="btn">View Project</button>
+        </div>
+
+        <div class="project-card">
+            <h3>Project Gamma</h3>
+            <p>Describe what this project does.</p>
+            <button class="btn">View Project</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-wrapper">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm" class="contact-form">
+            <div class="input-group">
+                <input type="text" name="name" id="name" required>
+                <label>Your Name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" name="email" id="email" required>
+                <label>Your Email</label>
+            </div>
+
+            <div class="input-group">
+                <textarea name="message" id="message" rows="5" required></textarea>
+                <label>Your Message</label>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2026 Your Name. All Rights Reserved.
+</footer>
+
+<!-- Link JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
